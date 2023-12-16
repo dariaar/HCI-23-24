@@ -45,6 +45,15 @@ const pages: Record<string, `/${string}`> = {
   profile: "/profile",
   shoppingcart: "/shoppingcart",
 }; // ili dodajte "as const" ovdje
+const adjustedPages: Record<string, `/${string}`> = {
+  home: "/",
+  shop: "/shop",
+  collections: "/collections",
+  blog: "/blog",
+  'about us': "/aboutus",
+  profile: "/profile",
+  'shopping cart': "/shoppingcart",
+};
 
 export default function RootLayout({
   children,
@@ -60,7 +69,7 @@ export default function RootLayout({
           playfairDisplay.variable
         )}
       >
-        <NavBar pages={pages} />
+        <NavBar pages={adjustedPages} />
         {children}
         <Footer/>
       </body>
