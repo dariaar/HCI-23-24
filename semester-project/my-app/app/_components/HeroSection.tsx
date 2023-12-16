@@ -19,7 +19,7 @@ const HeroSection = () => (
     <Image src={prvaSlika} alt="prva slika" className="w-screen" />
     <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
       <h1 className="text-3xl text-terra">TERRA ORGANICA COLLECTION</h1>
-      <button className="border border-terra px-6 py-2 text-terra mt-4">
+      <button className="border rounded-2xl border-terra px-6 py-2 text-terra mt-4">
         DISCOVER NOW
       </button>
     </div>
@@ -30,13 +30,13 @@ const HeroSection = () => (
 
     <div className="lg:flex flex-shrink-0">
       <div className="flex flex-col ml-8 mt-8">
-        <div className="flex items-center">
+        <div className="flex items-center flex-1">
           <Image src={drugaSlika} alt="druga slika" className="scale-30 pb-8 pr-8" />
           <div className="flex flex-col">
           <p className="font-roboto text-terra text-xl text-center mr-2">
             At AZALA, we take skincare to the next level. <br/>Our products undergo extensive testing in advanced laboratories. <br/>These efforts have translated into helping many people achieve healthier, more radiant skin.
           </p>
-          <button className="relative border border-terra text-2xl w-max mt-2 px-3 py-2 top-1/2 left-1/2 -translate-x-100 translate-y-20 text-terra">
+          <button className="relative border rounded-2xl border-terra text-2xl w-max mt-2 px-3 py-2 top-1/2 left-1/2 -translate-x-100 translate-y-20 text-terra">
           ABOUT US
         </button>
         </div>
@@ -57,7 +57,7 @@ answers and solutions you're looking for.
 
 
           </p>
-          <button className=" relative self-center border border-terra text-terra w-max px-3 py-2">
+          <button className=" relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2">
           READ THE BLOG
         </button>
         </div>
@@ -73,7 +73,7 @@ answers and solutions you're looking for.
           <li>paraben free</li>
 
           </h1>
-          <button className="relative self-center border border-terra text-terra w-max px-3 py-2">
+          <button className="relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2">
           SHOP NOW
         </button>
         </div>

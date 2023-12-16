@@ -1,4 +1,7 @@
 import Link from "next/link";
+import Image from "next/image";
+import dr from "@/public/hero/dr.png"
+import infl from "@/public/hero/infl.png"
 
 export interface Post {
   userId: number;
@@ -17,19 +20,61 @@ const getPosts = async (): Promise<Post[]> => {
 export default async function Blog() {
   const posts = await getPosts();
   return (
-    <main className="flex flex-col items-center min-h-screen max-w-5xl m-auto p-10">
-      <h1 className="text-3xl font-bold p-10">Blog Index Page</h1>
-      <ul className="flex flex-col gap-8">
-        {posts.map((post) => (
-          <li key={post.id}>
-            <Link href={`blog/${post.id}`}>
-              <span className="text-2xl text-purple-500">
-                Post {post.title}
-              </span>
-            </Link>
-          </li>
-        ))}
-      </ul>
-    </main>
+    <section className="bg-beige dark:bg-gray-900">
+  <div className="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
+      <div className="mx-auto max-w-screen-sm text-center lg:mb-16 mb-8">
+          <h2 className="mb-4 text-3xl lg:text-4xl tracking-tight font-extrabold text-terra">AZALA Blog</h2>
+          <p className="font-light text-terra sm:text-xl dark:text-gray-400">Dive into a treasure trove of skincare wisdom, where every article is a key to unlocking radiant, healthy skin.</p>
+      </div> 
+      <div className="grid gap-8 lg:grid-cols-2">
+          <article className="p-6 bg-green1 rounded-lg border border-green1 shadow-md">
+              <div className="flex justify-between items-center mb-5 text-beige">
+                  <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                      <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path d="M2 6a2 2 0 012-2h6a2 2 0 012 2v8a2 2 0 01-2 2H4a2 2 0 01-2-2V6zM14.553 7.106A1 1 0 0014 8v4a1 1 0 00.553.894l2 1A1 1 0 0018 13V7a1 1 0 00-1.447-.894l-2 1z"></path></svg>
+                      Article
+                  </span>
+                  <span className="text-sm">14 days ago</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-terra"><a href="#">The Ultimate Guide to Understanding Your Skin Type</a></h2>
+              <p className="mb-5 font-light text-terra dark:text-gray-400">Your skin is as unique as you are, and deciphering its needs is the first step toward achieving a radiant complexion.  In this guide, we'll delve into the characteristics of various skin types, offering personalized insights to help you identify and care for your skin more effectively.</p>
+              <div className="flex justify-between items-center">
+                  <div className="flex items-center space-x-4">
+                      <Image className="w-7 h-7 rounded-full" src={dr} alt={"dr"} />
+                      <span className="font-medium text-terra">
+                      Dr. Olivia Bennett
+                      </span>
+                  </div>
+                  <a href="#" className="inline-flex items-center font-medium text-beige hover:underline">
+                      Read more
+                      <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article> 
+          <article className="p-6 bg-green1 rounded-lg border border-green1 shadow-md">
+              <div className="flex justify-between items-center mb-5 text-beige">
+                  <span className="bg-primary-100 text-beige text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded dark:bg-primary-200 dark:text-primary-800">
+                      <svg className="mr-1 w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M2 5a2 2 0 012-2h8a2 2 0 012 2v10a2 2 0 002 2H4a2 2 0 01-2-2V5zm3 1h6v4H5V6zm6 6H5v2h6v-2z" clip-rule="evenodd"></path><path d="M15 7h1a2 2 0 012 2v5.5a1.5 1.5 0 01-3 0V7z"></path></svg>
+                      Article
+                  </span>
+                  <span className="text-sm">16 days ago</span>
+              </div>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-terra "><a href="#">Morning vs. Night: Crafting Your Perfect Skincare Routine.</a></h2>
+              <p className="mb-5 font-light text-terra">Unlock the secrets to a flawless complexion by tailoring your skincare routine to the rhythms of your day. Mornings and nights offer distinct opportunities to care for your skin, and understanding how to optimize each routine is key to achieving healthy, glowing skin. </p>
+              <div className="flex justify-between items-center">
+                  <div className="flex items-center space-x-4">
+                      <Image className="w-7 h-7 rounded-full" src={infl} alt={"infl"} />
+                      <span className="font-medium text-terra">
+                      Ella Harper
+                      </span>
+                  </div>
+                  <a href="#" className="inline-flex items-center font-medium text-beige hover:underline">
+                      Read more
+                      <svg className="ml-2 w-4 h-4" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
+                  </a>
+              </div>
+          </article>                  
+      </div>  
+  </div>
+</section>
   );
 }

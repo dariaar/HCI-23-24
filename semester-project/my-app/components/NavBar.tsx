@@ -15,7 +15,7 @@ interface NavbarProps {
 }
 
 const baseClass =
-  "uppercase whitespace-nowrap font-roboto-condensed text-base px-5 py-3 rounded-sm text-terra hover:bg-terra hover:text-green1";
+  "uppercase whitespace-nowrap font-roboto-condensed text-base px-5 py-3 rounded-xl text-terra hover:bg-terra hover:text-green1";
 
 const Navbar: FC<NavbarProps> = ({ pages }) => {
   const pathName = usePathname();
