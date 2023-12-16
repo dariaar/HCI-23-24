@@ -6,4 +6,4 @@ Class project 3: -link to website: https://project3-darias-projects-e57d084e.ver
 
 Class project 5: -link to website: https://azala-hci.vercel.app/
 
-Class project 6: -link to website: https://azala-v2-1.vercel.app/
+Class project 6: -link to website: https://azala-v3.vercel.app/
