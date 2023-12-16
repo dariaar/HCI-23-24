@@ -1,4 +1,4 @@
-﻿# Semester Project - AZALA WEBSHOP <!-- omit in toc -->
+﻿# Semester Project - AZALA <!-- omit in toc -->
 
 ## CLASS PROJECT #3 
 - link to website: https://project3-darias-projects-e57d084e.vercel.app/
