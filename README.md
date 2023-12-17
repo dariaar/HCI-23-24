@@ -7,7 +7,7 @@
 - link to website: https://azala-hci.vercel.app/
 
 ## CLASS PROJECT #6 
-- link to website: https://azala-v3.vercel.app/
+- link to website: https://hci-23-24-v3-1.vercel.app/ 
 
 
 
