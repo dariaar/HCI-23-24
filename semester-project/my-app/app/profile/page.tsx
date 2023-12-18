@@ -5,7 +5,7 @@ import profile from "@/public/hero/profile.png"
 
 const ProfilePage = () => (
 
-<section className=" bg-green2 flex font-medium items-center justify-center h-screen">
+<section className=" bg-beige flex font-medium items-center justify-center h-screen">
 
     <section className="w-64 mx-auto bg-terra rounded-2xl px-8 py-6 shadow-lg">
         <div className="flex items-center justify-between">

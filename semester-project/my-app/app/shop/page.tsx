@@ -9,6 +9,7 @@ function ShopPage() {
             <li><Link href="/shop/body">Shop Body</Link ></li>
             <li><Link href="/shop/hair">Shop Hair</Link ></li>
         </div>
+
     );
 }
 

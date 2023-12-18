@@ -1,5 +1,5 @@
 import Image from "next/image";
-import prvaSlika from "@/public/hero/prvaSlika.png";
+import prva from "@/public/hero/prva.png";
 import drugaSlika from "@/public/hero/drugaSlika.png";
 import trecaSlika from "@/public/hero/trecaSlika.png";
 import cetvrtaSlika from "@/public/hero/cetvrtaSlika.png";
@@ -16,12 +16,15 @@ const HeroSection = () => (
 
     <div className="lg:flex flex-shrink-0">
   <div className="flex flex-col relative">
-    <Image src={prvaSlika} alt="prva slika" className="w-screen" />
+    <Image src={prva} alt="prva slika" className="w-screen" />
+    <div className="absolute inset-0  bg-white opacity-75 w-2/3 h-3/4 mx-auto my-auto"></div>
     <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
       <h1 className="text-3xl text-terra">TERRA ORGANICA COLLECTION</h1>
-      <button className="border rounded-2xl border-terra px-6 py-2 text-terra mt-4">
+      <a href="/collections/newest">
+      <button className="border rounded-2xl border-terra px-6 py-2 text-terra mt-4 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
         DISCOVER NOW
       </button>
+      </a>
     </div>
   </div>
 </div>
@@ -39,9 +42,11 @@ const HeroSection = () => (
           <p className="font-roboto text-terra text-base lg:text-xl text-center ">
             At AZALA, we take skincare to the next level. <br/>Our products undergo extensive testing in advanced laboratories. <br/>These efforts have translated into helping many people achieve healthier, more radiant skin.
           </p>
-          <button className="relative border rounded-2xl border-terra text-2xl text-terra mt-3 px-6 py-2 lg:self-center">
+          <a href ="/aboutus">
+          <button className="relative border rounded-2xl border-terra text-xl text-terra mt-3 px-6 py-2 lg:self-center ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-2xl">
             ABOUT US
           </button>
+          </a>
         </div>
       </div>
     </div>
@@ -60,9 +65,11 @@ answers and solutions you're looking for.
 
 
           </p>
-          <button className=" relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2">
+          <a href="/blog">
+          <button className=" relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
           READ THE BLOG
         </button>
+        </a>
         </div>
         </div>
 
@@ -76,9 +83,11 @@ answers and solutions you're looking for.
           <li>paraben free</li>
 
           </h1>
-          <button className="relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2">
+          <a href="/shop/shop-all">
+          <button className="relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
           SHOP NOW
         </button>
+        </a>
         </div>
 
         </div>
