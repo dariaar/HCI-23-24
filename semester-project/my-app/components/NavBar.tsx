@@ -40,7 +40,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
             <li key={name}>
               {name === "shop" ? (
                 <div className="relative" onMouseEnter={handleShopDropdown} onMouseLeave={handleShopDropdown}>
-                  <span className={clsx(baseClass, { "bg-terra text-green1 pointer-events-none": path === pathName })}>
+                  <span className={clsx(baseClass, { "bg-terra text-green1 pointer-events-none": path === pathName, "text-terra" : path !== pathName, })}>
                     {name}
                   </span>
                   {showShopDropdown && (
@@ -54,7 +54,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
                 </div>
               ) : name === "collections" ? (
                 <div className="relative" onMouseEnter={handleCollectionsDropdown} onMouseLeave={handleCollectionsDropdown}>
-                  <span className={clsx(baseClass, { "bg-terra text-green1 pointer-events-none": path === pathName })}>
+                  <span className={clsx(baseClass, { "bg-terra text-green1 pointer-events-none": path === pathName, "text-terra" : path !== pathName, })}>
                     {name}
                   </span>
                   {showCollectionsDropdown && (
@@ -68,7 +68,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
                 </div>
               ) : (
                 <Link href={path}>
-                  <span className={clsx(baseClass, { "bg-terra text-green1 pointer-events-none": path === pathName })}>
+                  <span className={clsx(baseClass, { "bg-terra text-green1 pointer-events-none": path === pathName, "text-terra" : path !== pathName, })}>
                     {name}
                   </span>
                 </Link>
