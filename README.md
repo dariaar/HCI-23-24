@@ -14,7 +14,16 @@
 ## [CLASS PROJECT #6](https://github.com/dariaar/HCI-23-24/tree/main/class-projects/class-project-6)
 - link to website: https://hci-23-24-v3-1.vercel.app/
 
-
-
+## Weekly progress, status and problems (1/4)
+- link to website: https://azala-v4.vercel.app/
+### Progress
+- osigurali responzivnost NavBara
+- hover na buttonima
+- dropdown menu za SHOP i COLLECTIONS
+- klikom na određeni button, odvodi na odgovarajući page
+### Problems
+- nedostaju ikone za sliku "cetvrtaSlika"
+- linkovi u footeru nedostaju
+- članci u blogovima ne rade
 
 
