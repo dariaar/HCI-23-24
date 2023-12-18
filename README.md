@@ -14,7 +14,7 @@
 ### [CLASS PROJECT #6](https://github.com/dariaar/HCI-23-24/tree/main/class-projects/class-project-6)
 - link to website: https://hci-23-24-v3-1.vercel.app/
 
-
+### Weekly progress, status and problems (1/4)
 
 
 
