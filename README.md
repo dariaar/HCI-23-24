@@ -25,6 +25,6 @@
 - nedostaju ikone za sliku "cetvrtaSlika"
 - linkovi u footeru nedostaju
 - članci u blogovima ne rade
-- boja buttona u NavBaru se na aktivnoj stranici ne vidi
+- boja buttona u NavBaru se na aktivnoj stranici ne vidi (ispravljeno!)
 
 
