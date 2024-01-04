@@ -1,5 +1,3 @@
-import Logo from "@/components/Logo";
-import Icons from "@/components/Icons";
 import Image from "next/image";
 import logo2 from "@/public/hero/logo2.png"
 type TitleProps = {

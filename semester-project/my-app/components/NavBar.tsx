@@ -32,7 +32,12 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
   return (
     <nav className="bg-green1">
       <div className="flex items-center justify-center">
-        <Image src={logo2} alt="logo2" width={180} height={180} />
+      <Link legacyBehavior href="/">
+          <a>
+            <Image src={logo2} alt="logo2" width={180} height={180} />
+          </a>
+        </Link>
+
       </div>
       <nav className="flex items-center justify-center p-4">
         <ul className="flex gap-2 flex-wrap sm:flex-nowrap">
