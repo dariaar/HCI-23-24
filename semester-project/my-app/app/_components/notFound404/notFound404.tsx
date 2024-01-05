@@ -9,7 +9,7 @@ const NotFound404: React.FC = () => {
         <div className="flex flex-col items-center justify-center">
           <h1 className="text-6xl font-bold text-green1">404</h1>
           <p className="mt-2 text-2xl font-medium text-terra">Page Not Found</p>
-          <p className="mt-4 text-lg text-terra font-bold">
+          <p className="mt-4 text-lg text-terra ">
             Oh, dear! It seems the skincare route you're after is taking a short hiatus. <br/> Head back to our Homepage and embark on a renewed quest <br/> to uncover the secrets of vibrant skin.
           </p>
           <a href="/">
