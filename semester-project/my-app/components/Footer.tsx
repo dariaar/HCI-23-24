@@ -52,7 +52,7 @@ const Footer = () => (
             ]}
           />
         </div>
-        <div className="flex flex-col items-start md:items-end md:w1/5">
+        <div className="flex flex-col items-start md:items-end md:w1/5 mr-5">
           <div>
             <FooterListTitle>Contact Us</FooterListTitle>
             <ul className="font-roboto text-peach mb-4">

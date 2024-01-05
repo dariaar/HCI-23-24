@@ -9,7 +9,7 @@ function ShoppingCartPage() {
            
                    <div className="card">
                <div className="card-header">
-               <h1 className=" text-center text-3xl font-bold text-terra">Cart</h1>
+               <h1 className=" text-center text-3xl font-bold text-terra mt-2 mb-2">Shopping Cart</h1>
                </div>
                <div className="card-body cart">
                        <div className="flex justify-center items-center">
@@ -19,8 +19,12 @@ function ShoppingCartPage() {
 
                            </div>
                            <div className="flex flex-col justify-center items-center">
-                           <h3 className="text-terra font-bold">Your Cart is Empty.</h3>
-                           <h4 className="text-terra">Add something! </h4>
+                           <h3 className="text-terra font-bold mt-2">Your Shopping Cart is Empty.</h3>
+                           <a href="/shop/shop-all">
+                           <button className="border rounded-2xl border-terra px-6 py-2 text-terra mt-4 mb-4 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
+        SHOP NOW
+      </button>
+      </a>
                            
                        </div>
                </div>
