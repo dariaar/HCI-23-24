@@ -30,10 +30,10 @@ const playfairDisplay = Playfair_Display({
 
 export const metadata: Metadata = {
   title: {
-    template: "Lab project | %s",
-    default: "Lab project",
+    template: "AZALA | %s",
+    default: "AZALA",
   },
-  description: "Next.js lab project",
+  description: "AZALA webshop",
 };
 
 const pages: Record<string, `/${string}`> = {
