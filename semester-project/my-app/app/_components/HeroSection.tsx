@@ -66,45 +66,79 @@ const HeroSection = () => (
 </div>
 
 
-    <div className="flex flex-row bg-green2 py-2">
-        <div className="flex flex-col flex-1">
-        <Image src={trecaSlika} alt="treca slika" className="rounded-2xl w-100 h-auto mx-auto my-4 " />
-        <div className="flex flex-col  items-center">
-          <p className="font-roboto text-base text-center text-terra ml-2">
-          Uncertain about your skin type? <br/>
-From sensitive to combination skin, we've got the <br />
-answers and solutions you're looking for. 
-
-
-          </p>
-          <a href="/blog">
-          <button className=" relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
+<div className="lg:flex flex-row bg-green2 py-2">
+  {/* Content for larger screens */}
+  <div className="hidden lg:flex flex-col flex-1">
+    <Image src={trecaSlika} alt="treca slika" className="rounded-2xl w-100 h-auto mx-auto my-4" />
+    <div className="flex flex-col  items-center">
+      <p className="font-roboto text-base text-center text-terra ml-2">
+        Uncertain about your skin type? <br/>
+        From sensitive to combination skin, we've got the <br />
+        answers and solutions you're looking for.
+      </p>
+      <a href="/blog">
+        <button className=" relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
           READ THE BLOG
         </button>
-        </a>
-        </div>
-        </div>
+      </a>
+    </div>
+  </div>
 
-        <div className="flex flex-col  flex-1">
-        <Image src={cetvrtaSlika} alt="cetvrta slika" className="w-100 h-auto rounded-2xl mx-auto my-4" />
-        <div className="flex flex-col items-center">
-          <h1 className="font-roboto text-base text-center text-terra ml-8">
+  <div className="hidden lg:flex flex-col  flex-1">
+    <Image src={cetvrtaSlika} alt="cetvrta slika" className="w-100 h-auto rounded-2xl mx-auto my-4" />
+    <div className="flex flex-col items-center">
+      <h1 className="font-roboto text-base text-center text-terra ml-8">
+        All of our products are:
+        <li>fragrance free</li>
+        <li>oil free</li>
+        <li>paraben free</li>
+      </h1>
+      <a href="/shop/shop-all">
+        <button className="relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
+          SHOP NOW
+        </button>
+      </a>
+    </div>
+  </div>
+
+  {/* Content for smaller screens */}
+  <div className="lg:hidden bg-green2 py-2 flex flex-col">
+    <div className="flex flex-col items-center">
+      <Image src={trecaSlika} alt="treca slika" className="rounded-2xl w-100 h-auto my-4" />
+      <div className="flex flex-col items-center">
+        <p className="font-roboto text-base text-center text-terra ml-2">
+          Uncertain about your skin type? <br />
+          From sensitive to combination skin, we've got the <br />
+          answers and solutions you're looking for.
+        </p>
+        <a href="/blog">
+          <button className="border rounded-2xl border-terra text-terra px-3 py-2 mt-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
+            READ THE BLOG
+          </button>
+        </a>
+      </div>
+    </div>
+
+    <div className="flex flex-col items-center mt-4">
+      <Image src={cetvrtaSlika} alt="cetvrta slika" className="w-100 h-auto rounded-2xl" />
+      <div className="flex flex-col items-center">
+        <h1 className="font-roboto text-base text-center text-terra mt-2">
           All of our products are:
           <li>fragrance free</li>
           <li>oil free</li>
           <li>paraben free</li>
-
-          </h1>
-          <a href="/shop/shop-all">
-          <button className="relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
-          SHOP NOW
-        </button>
+        </h1>
+        <a href="/shop/shop-all">
+          <button className="border rounded-2xl border-terra text-terra px-3 py-2 mt-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
+            SHOP NOW
+          </button>
         </a>
-        </div>
-
-        </div>
-
+      </div>
     </div>
+  </div>
+</div>
+
+    
   </section>
 );
 

@@ -30,9 +30,9 @@ Our passion for skincare goes beyond selling products; it's about fostering a co
                     </div>
                 </div>
                 <div className="mt-12 sm:mt-16 lg:mt-0">
-                    <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <div className="-mr-48 pl-6 md:-mr-16 px-6 w-full  h-auto lg:relative lg:m-0 lg:h-full lg:px-0">
                         <Image loading="lazy" width="647" height="486"
-                            className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
+                            className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none "
                             src={about1} alt={"about1"}/>
                     </div>
                 </div>
@@ -62,7 +62,7 @@ Thank you for choosing AZALA as your companion on this exciting journey to radia
                     </div>
                 </div>
                 <div className="mt-12 sm:mt-16 lg:mt-0">
-                    <div className="-ml-48 pr-6 md:-ml-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <div className="mr-48 pr-6 md:-ml-16 px-6 w-full h-auto lg:relative lg:m-0 lg:h-full lg:px-0">
                         <Image alt="Inbox user interface" loading="lazy" width="647" height="486"
                             className="w-full rounded-xl shadow-xl ring-1 ring-black ring-opacity-5 lg:absolute lg:right-0 lg:h-full lg:w-auto lg:max-w-none"
                              src={about2}/>
@@ -91,7 +91,7 @@ Thank you for choosing AZALA as your companion on this exciting journey to radia
                     </div>
                 </div>
                 <div className="mt-12 sm:mt-16 lg:mt-0">
-                    <div className="-mr-48 pl-6 md:-mr-16 lg:relative lg:m-0 lg:h-full lg:px-0">
+                    <div className="-mr-48 pl-6 md:-mr-16 px-6 w-full h-auto lg:relative lg:m-0 lg:h-full lg:px-0">
                         <Image loading="lazy" width="646" height="485"
                             className="w-full rounded-xl shadow-2xl ring-1 ring-black ring-opacity-5 lg:absolute lg:left-0 lg:h-full lg:w-auto lg:max-w-none"
 

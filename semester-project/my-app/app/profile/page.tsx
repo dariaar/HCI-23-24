@@ -3,10 +3,10 @@ import Image from 'next/image';
 import profile from '@/public/hero/profile.png';
 
 const ProfilePage = () => (
-  <section className="bg-beige flex font-medium items-center justify-center h-screen ">
+  <section className="bg-beige flex font-medium items-center justify-center h-auto flex-col lg:flex-row">
   
     {/* Sidebar/Navigation */}
-    <section className="w-1/4 mx-auto bg-terra rounded-2xl px-6 py-10 shadow-lg ml-8">
+    <section className="w-10/12 lg:w-1/4 mx-auto bg-terra rounded-2xl px-6 py-10 shadow-lg mb-8 lg:mb-0 lg:m-3 mt-2 ">
       <div className="flex flex-col space-y-4">
         <ul className="space-y-2">
           <li><button className="py-2 bg-terra text-peach hover:text-terra hover:bg-peach rounded-md w-full">Account</button></li>
@@ -18,7 +18,7 @@ const ProfilePage = () => (
     </section>
 
     {/* Profile Information */}
-    <section className="w-1/2 mx-auto bg-terra rounded-2xl px-8 py-6 shadow-lg ml-8">
+    <section className="w-10/12 lg:w-1/2 mx-auto bg-terra rounded-2xl px-8 py-6 shadow-lg mb-8 lg:mb-0 lg:m-3 ">
       <div className="flex items-center justify-between">
         <span className="text-peach text-sm">2d ago</span>
         <span className="text-green1">
@@ -48,7 +48,7 @@ const ProfilePage = () => (
     </section>
 
     {/* Additional Sections on Right as Buttons */}
-    <section className="w-1/4 mx-auto bg-terra rounded-2xl px-6 py-10 shadow-lg ml-8 mr-8 mt-8 mb-8">
+    <section className="w-10/12 lg:w-1/4 mx-auto bg-terra rounded-2xl px-6 py-10 shadow-lg mb-8 lg:mb-3 lg:m-3">
       <div className="flex flex-col space-y-4">
         <button className="py-2 bg-terra text-peach hover:text-terra hover:bg-peach rounded-md w-full">Membership Program</button>
         <p className="text-center text-green1">Join our exclusive membership for extra benefits!</p>
