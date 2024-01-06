@@ -3,8 +3,8 @@ import Image from 'next/image';
 import profile from '@/public/hero/profile.png';
 
 const ProfilePage = () => (
-  <section className="bg-beige flex font-medium items-center justify-center h-screen">
-
+  <section className="bg-beige flex font-medium items-center justify-center h-screen ">
+  
     {/* Sidebar/Navigation */}
     <section className="w-1/4 mx-auto bg-terra rounded-2xl px-6 py-10 shadow-lg ml-8">
       <div className="flex flex-col space-y-4">
@@ -63,6 +63,7 @@ const ProfilePage = () => (
         <p className="text-center text-green1">Find answers to common questions.</p>
       </div>
     </section>
+   
   </section>
 );
 

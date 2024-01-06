@@ -14,16 +14,27 @@ const HeroSection = () => (
       </h1>
     </div>
 
-    <div className="lg:flex flex-shrink-0">
-  <div className="flex flex-col relative">
-    <Image src={prva} alt="prva slika" className="w-screen" />
-    <div className="absolute inset-0  bg-white opacity-75 w-2/3 h-3/4 mx-auto my-auto"></div>
-    <div className="absolute inset-0 flex flex-col items-center justify-center text-center">
-      <h1 className="text-3xl text-terra">TERRA ORGANICA COLLECTION</h1>
+    <div className="lg:flex flex-shrink-0 relative">
+  <Image src={prva} alt="prva slika" className="w-screen" />
+  <div className="absolute inset-0 bg-white opacity-75 w-2/3 h-3/4 mx-auto my-auto lg:flex lg:items-center lg:justify-center lg:w-2/3 lg:h-3/4">
+    <div className="hidden lg:flex lg:flex-col lg:items-center lg:justify-center lg:text-center">
+      <h1 className="text-3xl text-terra">
+        TERRA ORGANICA COLLECTION
+      </h1>
       <a href="/collections/newest">
-      <button className="border rounded-2xl border-terra px-6 py-2 text-terra mt-4 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
-        DISCOVER NOW
-      </button>
+        <button className="border rounded-2xl border-terra px-6 py-2 text-terra mt-4 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
+          DISCOVER NOW
+        </button>
+      </a>
+    </div>
+    <div className="lg:hidden flex flex-col items-center justify-center text-center">
+      <h1 className="text-3xl text-terra">
+        TERRA ORGANICA COLLECTION
+      </h1>
+      <a href="/collections/newest">
+        <button className="border rounded-2xl border-terra px-6 py-2 text-terra mt-4 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
+          DISCOVER NOW
+        </button>
       </a>
     </div>
   </div>
@@ -31,15 +42,16 @@ const HeroSection = () => (
 
 
 
+
     
-<div className="lg:flex flex-shrink-0">
+<div className="lg:flex flex-shrink-0 mb-4">
   <div className="flex flex-col lg:flex-row ml-6 mt-6">
     <div className="flex items-center flex-1 lg:w-1/2">
       <div className="flex flex-col lg:flex-row lg:items-center">
         
         <Image src={drugaSlika} alt="druga slika" className="scale-30 pb-8 pr-8 w-full lg:w-auto rounded-2xl" />
-        <div className="flex flex-col items-center justify-center text-center ml-8 mt-8">
-          <p className="font-roboto text-terra text-base lg:text-xl text-center ">
+        <div className="flex flex-col items-center justify-center text-center ml-8 mt-8 ">
+          <p className="font-roboto text-terra text-base lg:text-xl text-center">
             At AZALA, we take skincare to the next level. <br/>Our products undergo extensive testing in advanced laboratories. <br/>These efforts have translated into helping many people achieve healthier, more radiant skin.
           </p>
           <a href ="/aboutus">

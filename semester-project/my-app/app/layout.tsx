@@ -11,6 +11,7 @@ import NavBar from "@/components/NavBar";
 import "./globals.css";
 import Footer from "@/components/Footer";
 
+
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const roboto = Roboto({
   weight: ["400"],
@@ -69,7 +70,10 @@ export default function RootLayout({
           playfairDisplay.variable
         )}
       >
+      
         <NavBar pages={adjustedPages} />
+       
+    
         {children}
         <Footer/>
       </body>
