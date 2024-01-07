@@ -96,7 +96,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
               />
               <Link legacyBehavior href="/404" className="flex">
 
-              <button className="absolute right-0 top-0 bottom-2 px-3 py-2 bg-terra text-green1 rounded-xl hover:text-terra hover:bg-peach">GO</button>
+              <button className="absolute right-0 top-0 bottom- px-3 py-2 bg-terra text-green1 rounded-xl hover:text-terra hover:bg-peach">GO</button>
               </Link>
               </div>
               {/* ... */}
