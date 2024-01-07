@@ -1,6 +1,6 @@
 ﻿# Semester Project - AZALA <!-- omit in toc -->
  
- - latest deployment: https://azala-v4.vercel.app/
+ - latest deployment: https://azala-v5.vercel.app/
 
 ### Weekly progress, status and problems (2/4)
 - dodan search bar
