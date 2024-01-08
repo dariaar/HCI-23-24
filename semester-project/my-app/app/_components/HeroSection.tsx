@@ -120,21 +120,25 @@ const HeroSection = () => (
     </div>
 
     <div className="flex flex-col items-center mt-4">
-      <Image src={cetvrtaSlika} alt="cetvrta slika" className="w-100 h-auto rounded-2xl" />
-      <div className="flex flex-col items-center">
-        <h1 className="font-roboto text-base text-center text-terra mt-2">
-          All of our products are:
-          <li>fragrance free</li>
-          <li>oil free</li>
-          <li>paraben free</li>
-        </h1>
-        <a href="/shop/shop-all">
-          <button className="border rounded-2xl border-terra text-terra px-3 py-2 mt-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
-            SHOP NOW
-          </button>
-        </a>
-      </div>
+  <Image src={cetvrtaSlika} alt="cetvrta slika" className="w-100 h-auto rounded-2xl" />
+  <div className="flex flex-col items-center">
+    <h1 className="font-roboto text-base text-center text-terra mt-2">
+      All of our products are:
+    </h1>
+    <div className="text-terra">
+    <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
+      <li>fragrance free</li>
+      <li>oil free</li>
+      <li>paraben free</li>
+    </ul>
     </div>
+    <a href="/shop/shop-all">
+      <button className="border rounded-2xl border-terra text-terra px-3 py-2 mt-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
+        SHOP NOW
+      </button>
+    </a>
+  </div>
+</div>
   </div>
 </div>
 

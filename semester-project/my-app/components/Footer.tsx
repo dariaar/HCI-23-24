@@ -40,7 +40,7 @@ const Footer = () => (
           </div>
           </div>
         </div>
-        <div className="flex flex-wrap justify-center gap-11 md:gap-0 md:justify-center md:w-3/5">
+        <div className="flex flex-wrap justify-center gap-11 md:gap-0 md:justify-center md:w-3/5 text-center md:text-left">
           <FooterList
             title="Sitemap"
             items={[
@@ -53,17 +53,17 @@ const Footer = () => (
           />
         </div>
         <div className="flex flex-col items-start md:items-end md:w1/5 mr-5">
-          <div>
+        <div className="text-center md:text-left">
             <FooterListTitle>Contact Us</FooterListTitle>
-            <ul className="font-roboto text-peach mb-4">
+            <ul className="font-roboto text-peach mb-4 text-center justify-center lg:text-left">
               <li>Ruđera Boškovića 32</li>
               <li>21000, Split, Croatia</li>
             </ul>
-            <ul className="font-roboto text-peach mb-4">
-              <li className="flex gap-2 items-center">
+            <ul className="font-roboto text-peach mb-4 ">
+              <li className="flex gap-2 items-center text-center justify-center lg:justify-start">
                 +385 123 4567
               </li>
-              <li className="flex gap-2 items-center">
+              <li className="flex gap-2 items-center text-center justify-center lg:justify-start">
                 info@azala.hr
               </li>
             </ul>
