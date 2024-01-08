@@ -18,7 +18,7 @@ const NotFound404: React.FC = () => {
             </button>
           </a>
         </div>
-        <div className="flex justify-end ml-20">
+        <div className="flex justify-center md:justify-end">
           <Image src={face} alt="face picture" width={420} height={420} />
         </div>
       </div>

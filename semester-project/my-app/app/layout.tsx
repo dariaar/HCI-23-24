@@ -7,7 +7,6 @@ import {
   Playfair_Display,
 } from "next/font/google";
 import NavBar from "@/components/NavBar";
-//import Footer from "@/components/Footer";
 import "./globals.css";
 import Footer from "@/components/Footer";
 
