@@ -3,6 +3,9 @@ import prva from "@/public/hero/prva.png";
 import drugaSlika from "@/public/hero/drugaSlika.png";
 import trecaSlika from "@/public/hero/trecaSlika.png";
 import cetvrtaSlika from "@/public/hero/cetvrtaSlika.png";
+import oil from "@/public/hero/oil.png";
+import paraben from "@/public/hero/paraben.png";
+import perfume from "@/public/hero/perfume.png";
 
 
 const HeroSection = () => (
@@ -89,9 +92,28 @@ const HeroSection = () => (
     <div className="flex flex-col items-center">
       <h1 className="font-roboto text-base text-center text-terra ml-8">
         All of our products are:
-        <li>fragrance free</li>
-        <li>oil free</li>
-        <li>paraben free</li>
+        <ul className="list-none">
+        <li className="flex items-center gap-2">
+        <div className="flex items-center">
+        <Image src={perfume} alt="perfume" className="w-auto h-10" />
+        <span>fragrance free</span>
+        </div>
+        </li>
+        <li className="flex items-center gap-2">
+        <div className="flex items-center">
+        <Image src={oil} alt="oil" className="ml-2 mr-2"/>
+        <span>oil free</span>
+        </div>
+        </li>
+        <li className="flex items-center gap-2">
+        <div className="flex items-center">
+        <Image src={paraben} alt="paraben" className="w-auto h-8 ml-2 pb-1 pr-1" />
+        <span>paraben free</span>
+        </div>
+        </li>
+        </ul>
+
+
       </h1>
       <a href="/shop/shop-all">
         <button className="relative self-center border rounded-2xl border-terra text-terra w-max px-3 py-2 ease-in-out hover:bg-neutral-500 hover:bg-opacity-10 hover:text-xl">
