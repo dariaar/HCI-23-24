@@ -2,6 +2,9 @@
  
  - latest deployment: https://azala-v5.vercel.app/
 
+### Weekly progress, status and problems (3/4)
+- dodane ikone (paraben free, oil free, fragrance free)
+
 ### Weekly progress, status and problems (2/4)
 - dodan search bar
 - uređen profile i shopping cart page
