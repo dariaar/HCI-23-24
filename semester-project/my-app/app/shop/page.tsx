@@ -1,4 +1,6 @@
 import Link from "next/link"
+import { fetchGraphQL } from "../utils/contentfulFetch";
+
 
 function ShopPage() {
     return (
