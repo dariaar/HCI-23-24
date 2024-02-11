@@ -14,14 +14,14 @@ const Card: React.FC<CardProps> = ({ imageUrl, title, price, onAddToCart }) => {
       <div className="m-[20px]">
         <Image className="rounded-2xl" src={imageUrl} alt={title} width={300} height={300} />
       </div>
-      <p className=" text-xl font-bold whitespace-break-spaces text-terra">
+      <p className=" text-xl  whitespace-break-spaces text-terra">
         {title}
       </p>
       <p className=" text-xl font-bold whitespace-break-spaces text-terra">
         {price}
       </p>
       <button
-        className=" text-terra bg-green1 rounded-xl p-[7px] m-[10px] "
+        className=" text-green2 bg-terra hover:bg-peach hover:text-terra rounded-xl p-[7px] m-[10px] "
         onClick={onAddToCart}
       >
         Add to cart
