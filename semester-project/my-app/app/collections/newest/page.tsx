@@ -8,7 +8,7 @@ function NewestPage()
     return (
         <div className="ml-20 mr-20">
         <div className="m-4">
-        <h1 className="text-2xl text-terra font-bold relative text-center"> Experience Radiance: Unveiling Our Newest Collection! </h1>
+        <h1 className="text-3xl text-terra font-bold relative text-center m-5"> Experience Radiance: Unveiling Our Newest Collection! </h1>
         <p className="text-terra text-lg text-center">
 
 

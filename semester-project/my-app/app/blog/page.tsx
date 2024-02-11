@@ -84,8 +84,8 @@ export default async function Blog() {
                   </span>
                   <span className="text-sm">11 days ago</span>
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-terra "><a href="#">Unlocking the Secrets of Natural Radiance.</a></h2>
-              <p className="mb-5 font-light text-terra">Explore the wonders of natural ingredients for skincare. From botanical extracts to herbal infusions, delve into the power of nature in achieving radiant skin. Discuss DIY skincare recipes, the benefits of plant-based products, and how embracing the goodness of nature can transform your skincare routine.</p>
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-terra "><a href="#">Beauty in Nature:Unlocking the Secrets of Natural Radiance.</a></h2>
+              <p className="mb-5 font-light text-terra">Explore the wonders of natural ingredients for skincare. From botanical extracts to herbal infusions, delve into the power of nature in achieving radiant skin.DIY skincare recipes, the benefits of plant-based products, and how embracing the goodness of nature can transform your skincare routine.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
                       <Image className="w-7 h-7 rounded-full" src={infl2} alt={"infl2"} />
@@ -108,7 +108,7 @@ export default async function Blog() {
                   <span className="text-sm">13 days ago</span>
               </div>
               <h2 className="mb-2 text-2xl font-bold tracking-tight text-terra "><a href="#">Ageless Beauty: Navigating Skincare Through the Years</a></h2>
-              <p className="mb-5 font-light text-terra">Take your readers on a journey through the evolving needs of skincare at different life stages. Address skincare concerns specific to each age group, from teenage acne to adult skincare routines and mature skin rejuvenation. Provide tips, product recommendations, and expert advice on maintaining ageless beauty at every phase of life.</p>
+              <p className="mb-5 font-light text-terra">Journey through the evolving needs of skincare at different life stages. Skincare concerns specific to each age group, from teenage acne to adult skincare routines and mature skin rejuvenation. Tips, product recommendations, and expert advice on maintaining ageless beauty at every phase of life.</p>
               <div className="flex justify-between items-center">
                   <div className="flex items-center space-x-4">
                       <Image className="w-7 h-7 rounded-full" src={dr2} alt={"dr2"} />

@@ -28,7 +28,7 @@ function Blog1Page()
                 each skin type comes with its characteristics and requires a tailored approach to skincare. In this comprehensive guide,
                 we will walk you through the various skin types, helping you decode the language your skin speaks.</p>
             
-            <figure><Image className="mt-5" src={blog2} alt="blog2"/>
+            <figure><Image className="mt-5 rounded-xl" src={blog2} alt="blog2"/>
                 <figcaption className="text-center text-green1">Different Skin Types</figcaption>
             </figure>
            

@@ -9,7 +9,7 @@ function AcnePage()
     return (
         <div className="ml-20 mr-20">
             <div className="m-4">
-            <h1 className="text-2xl text-terra font-bold relative text-center"> Introducing Our Acne-Prone Skin Collection: Your Path to Clear Confidence!</h1>
+            <h1 className="text-3xl text-terra font-bold relative text-center m-5"> Introducing Our Acne-Prone Skin Collection: Your Path to Clear Confidence!</h1>
             <p className="text-terra text-lg text-center">At AZALA, we understand the unique challenges that come with acne-prone skin, and we're thrilled to present a skincare collection designed to empower you on your journey to a clear and confident complexion.<br/></p>
             </div>
             <div className="flex flex-row m-2 justify-center ">

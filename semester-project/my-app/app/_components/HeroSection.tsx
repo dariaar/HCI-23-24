@@ -149,9 +149,24 @@ const HeroSection = () => (
     </h1>
     <div className="text-terra">
     <ul style={{ listStyle: 'none', paddingLeft: 0 }}>
-      <li>fragrance free</li>
-      <li>oil free</li>
-      <li>paraben free</li>
+    <li className="flex items-center gap-2">
+        <div className="flex items-center">
+        <Image src={perfume} alt="perfume" className="w-auto h-10" />
+        <span>fragrance free</span>
+        </div>
+        </li>
+        <li className="flex items-center gap-2">
+        <div className="flex items-center">
+        <Image src={oil} alt="oil" className="ml-2 mr-2"/>
+        <span>oil free</span>
+        </div>
+        </li>
+        <li className="flex items-center gap-2">
+        <div className="flex items-center">
+        <Image src={paraben} alt="paraben" className="w-auto h-8 ml-2 pb-1 pr-1" />
+        <span>paraben free</span>
+        </div>
+        </li>
     </ul>
     </div>
     <a href="/shop/shop-all">

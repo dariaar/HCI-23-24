@@ -29,7 +29,7 @@ function Blog4Page()
 
 </p>
             
-            <figure><Image className="mt-5" src={mature} alt="mature"/>
+            <figure><Image className="mt-5 rounded-xl" src={mature} alt="mature"/>
                 <figcaption className="text-center text-green1">Mature Skin</figcaption>
             </figure>
            

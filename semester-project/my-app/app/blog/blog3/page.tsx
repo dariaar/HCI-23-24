@@ -21,14 +21,14 @@ function Blog3Page()
                 </address>
                 <h1 className="mb-4 text-3xl text-center font-extrabold leading-tight text-terra lg:mb-6 lg:text-4xl ">
                         
-                Unlocking the Secrets of Natural Radiance</h1>
+               Beauty in Nature:Unlocking the Secrets of Natural Radiance</h1>
             </header>
             <p className="lead text-center text-lg text-terra">
 
             In a world inundated with skincare options, the allure of natural radiance has never been more enticing. Beyond the promises of laboratory-developed concoctions, the beauty of nature beckons, offering 
             a myriad of ingredients that can transform your skincare routine into a journey of self-care and rejuvenation.</p>
             
-            <figure><Image className="mt-5" src={nature} alt="nature"/>
+            <figure><Image className="mt-5 rounded-xl" src={nature} alt="nature"/>
                 <figcaption className="text-center text-green1">Natural Beuty</figcaption>
             </figure>
            

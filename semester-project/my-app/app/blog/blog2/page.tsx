@@ -28,7 +28,7 @@ function Blog2Page()
             Skincare is not just a routine; it's a ritual that nourishes your skin and boosts your confidence. As you embark on the journey to healthier, glowing skin, understanding the nuances between morning and nighttime skincare routines is crucial. Each phase of the day presents unique challenges and opportunities for your skin, and tailoring your regimen accordingly can make a significant difference.
              In this guide, we delve into the intricacies of morning and nighttime skincare to help you curate the perfect routine.</p>
             
-            <figure><Image className="mt-5" src={skincare} alt="skincare"/>
+            <figure><Image className="mt-5 rounded-xl" src={skincare} alt="skincare"/>
                 <figcaption className="text-center text-green1">Skincare</figcaption>
             </figure>
            
