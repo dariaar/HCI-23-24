@@ -1,72 +1,70 @@
 import Link from "next/link"
+import dr from "@/public/hero/dr.png"
+import blog2 from "@/public/hero/blog2.png"
+import Image from "next/image";
 
 function Blog1Page()
 {
     return (
-        <div className="relative bg-beige text-terra text-center">
-            Our skin is a remarkable organ, serving as the body's first line of defense against external threats while also being a reflection of our overall health and well-being. Understanding your skin type is a crucial step in crafting an effective skincare routine tailored to your unique needs. In this comprehensive guide, we will explore the different skin types, how to identify your own, and provide tips for proper care.
-<br/>
-I. The Five Basic Skin Types:
-<br/>
-Normal Skin:
-<br/>
-Characteristics: Balanced oil production, few imperfections, and a radiant complexion.
-Care Tips: Maintain hydration with a light moisturizer, and use a mild cleanser to keep the skin clean.
-Dry Skin:
-<br/>
-Characteristics: Tightness, flakiness, and dull appearance due to insufficient oil production.
-Care Tips: Use a rich, hydrating moisturizer, avoid hot water during cleansing, and incorporate hydrating serums into your routine.
-Oily Skin:
-<br/>
-Characteristics: Excess oil, enlarged pores, and a tendency to develop acne and blackheads.
-Care Tips: Use oil-free products, cleanse regularly with a gentle foaming cleanser, and incorporate products containing salicylic acid.
-Combination Skin:
-<br/>
-Characteristics: A mix of dry and oily areas, with the T-zone (forehead, nose, and chin) being more prone to oiliness.
-Care Tips: Customize your routine, using moisturizers on drier areas and oil-free products on the T-zone. Consider multi-masking for targeted care.
-Sensitive Skin:
-<br/>
-Characteristics: Easily irritated, redness, and a tendency to react negatively to certain products or environmental factors.
-Care Tips: Choose fragrance-free, hypoallergenic products, perform patch tests, and incorporate soothing ingredients like aloe vera and chamomile.
-II. Identifying Your Skin Type:
-<br/>
-Morning Assessment:
-<br/>
-Observe your skin after waking up to determine oiliness or dryness.
-Note any areas of sensitivity, redness, or irritation.
-Midday Check:
-<br/>
-Assess how your skin feels around midday to gauge oil production.
-Take note of any changes or discomfort.
-Evening Examination:
-<br/>
-Evaluate your skin before bedtime to understand how it reacts throughout the day.
-Look for signs of dehydration or excess oil.
-III. Crafting a Skincare Routine:
-<br/>
-Cleansing:
-<br/>
-Choose a cleanser based on your skin type.
-Cleanse twice daily to remove impurities.
-Moisturizing:
-<br/>
-Use a moisturizer that suits your skin type.
-Apply moisturizer regularly to maintain hydration.
-Sun Protection:
-<br/>
-Regardless of skin type, use a broad-spectrum sunscreen with at least SPF 30.
-Reapply sunscreen every two hours, especially when exposed to the sun.
-Treatment Products:
-<br/>
-Incorporate treatment products based on your specific skin concerns (e.g., anti-aging, acne treatment, or hyperpigmentation).
-Consistency is Key:
-<br/>
-Stick to your skincare routine consistently to see long-term benefits.
-Be patient; it may take time for noticeable improvements.
-Conclusion:
-<br/>
-Understanding your skin type is the cornerstone of a successful skincare routine. By identifying your unique needs, you can tailor your regimen to address specific concerns, leading to healthier, more radiant skin. Remember, consistency, and patience are essential on the journey to achieving your skin's optimal health.
-        </div>
+        <div className="flex justify-between px-4 mx-auto max-w-screen-xl ">
+        <article className="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
+            <header className="mb-4 lg:mb-6 not-format">
+                <address className="flex justify-center mt-8 mb-6 not-italic">
+                    <div className="inline-flex items-center mr-3 text-sm text-terra ">
+                        <Image className="mr-4 w-16 h-16 rounded-full" src={dr} alt={"dr"}/>
+                        <div>
+                            <a href="#" rel="author" className="text-xl font-bold text-terra ">Dr. Olivia Bennett</a>
+                            <p className="text-base text-green1 ">Dermatologist at London Clinic</p>
+                            <p className="text-base text-green1 ">Feb. 8, 2024</p>
+                        </div>
+                    </div>
+                </address>
+                <h1 className="mb-4 text-3xl text-center font-extrabold leading-tight text-terra lg:mb-6 lg:text-4xl ">
+                        The Ultimate Guide to Understanding Your Skin Type</h1>
+            </header>
+            <p className="lead text-center text-terra">
+
+                Your skin is a unique canvas, and deciphering its needs is the key to unlocking a radiant complexion. From oily to dry, sensitive to combination, 
+                each skin type comes with its characteristics and requires a tailored approach to skincare. In this comprehensive guide,
+                we will walk you through the various skin types, helping you decode the language your skin speaks.</p>
+            
+            <figure><Image src={blog2} alt="blog2"/>
+                <figcaption className="text-center text-green1">Different Skin Types</figcaption>
+            </figure>
+           
+            <ol className="text-terra text-center mt-6">
+                <li className="m-5"><strong className="text-xl">1. Identifying Your Skin Type</strong>. Understanding your skin type is the first step towards crafting an 
+                            effective skincare routine. Here are the common skin types:<br/>
+                            <strong>Normal Skin:</strong>
+                            <li>Balanced sebum production.</li>
+                            <li>Few imperfections.</li>
+                            <li>Well-hydrated.</li>
+
+                            <strong>Oily Skin:</strong>
+                            <li>Excess sebum production.</li>
+                            <li>Prone to acne and enlarged pores.</li>
+
+                            <strong>Dry Skin:</strong>
+                            <li>Insufficient sebum production.</li>
+                            <li>Flaky or rough texture.</li>
+                            <li>Prone to fine lines and red patches.</li>
+
+                            
+                </li>
+                <li className="m-5"><strong className="text-xl">2. Environmental Factors and Lifestyle Choices</strong>. Consider external factors that may impact your skin:<br/>
+                <li><strong>Climate:</strong>Adjust your routine based on the climate (e.g., humid or dry weather).</li>
+                <li><strong>Diet:</strong>Stay hydrated and incorporate foods rich in antioxidants.</li>
+                <li><strong>Stress:</strong>Manage stress levels, as stress can impact skin health.</li>
+                
+                </li>
+                <li className="m-5"><strong className="text-xl">3. Consulting a Dermatologist</strong>. If in doubt about your skin type or if you have persistent skin concerns, consult with a dermatologist. They can provide professional insights and recommend specific treatments tailored to your unique skin profile.
+<br/><br/>
+Understanding your skin type is the foundation for a radiant and healthy complexion. With this ultimate guide, embark on a skincare journey that celebrates your skin's uniqueness, bringing out the best in its natural beauty. Remember, a well-informed approach to skincare is the secret to glowing confidence.</li>
+               
+            </ol>
+            </article>
+
+</div>
     );
 }
 
