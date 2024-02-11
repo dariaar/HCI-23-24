@@ -16,24 +16,24 @@ function Blog1Page()
                             <a href="#" rel="author" className="text-xl font-bold text-terra ">Dr. Olivia Bennett</a>
                             <p className="text-base text-green1 ">Dermatologist at London Clinic</p>
                             <p className="text-base text-green1 ">Feb. 8, 2024</p>
-                        </div>
+                        </div> 
                     </div>
                 </address>
                 <h1 className="mb-4 text-3xl text-center font-extrabold leading-tight text-terra lg:mb-6 lg:text-4xl ">
                         The Ultimate Guide to Understanding Your Skin Type</h1>
             </header>
-            <p className="lead text-center text-terra">
+            <p className="lead text-center text-lg text-terra">
 
                 Your skin is a unique canvas, and deciphering its needs is the key to unlocking a radiant complexion. From oily to dry, sensitive to combination, 
                 each skin type comes with its characteristics and requires a tailored approach to skincare. In this comprehensive guide,
                 we will walk you through the various skin types, helping you decode the language your skin speaks.</p>
             
-            <figure><Image src={blog2} alt="blog2"/>
+            <figure><Image className="mt-5" src={blog2} alt="blog2"/>
                 <figcaption className="text-center text-green1">Different Skin Types</figcaption>
             </figure>
            
             <ol className="text-terra text-center mt-6">
-                <li className="m-5"><strong className="text-xl">1. Identifying Your Skin Type</strong>. Understanding your skin type is the first step towards crafting an 
+                <li className="m-5 text-lg"><strong className="text-xl">1. Identifying Your Skin Type</strong>. Understanding your skin type is the first step towards crafting an 
                             effective skincare routine. Here are the common skin types:<br/>
                             <strong>Normal Skin:</strong>
                             <li>Balanced sebum production.</li>
@@ -51,13 +51,13 @@ function Blog1Page()
 
                             
                 </li>
-                <li className="m-5"><strong className="text-xl">2. Environmental Factors and Lifestyle Choices</strong>. Consider external factors that may impact your skin:<br/>
+                <li className="m-5 text-lg"><strong className="text-xl">2. Environmental Factors and Lifestyle Choices</strong>. Consider external factors that may impact your skin:<br/>
                 <li><strong>Climate:</strong>Adjust your routine based on the climate (e.g., humid or dry weather).</li>
                 <li><strong>Diet:</strong>Stay hydrated and incorporate foods rich in antioxidants.</li>
                 <li><strong>Stress:</strong>Manage stress levels, as stress can impact skin health.</li>
                 
                 </li>
-                <li className="m-5"><strong className="text-xl">3. Consulting a Dermatologist</strong>. If in doubt about your skin type or if you have persistent skin concerns, consult with a dermatologist. They can provide professional insights and recommend specific treatments tailored to your unique skin profile.
+                <li className="m-5 text-lg"><strong className="text-xl">3. Consulting a Dermatologist</strong>. If in doubt about your skin type or if you have persistent skin concerns, consult with a dermatologist. They can provide professional insights and recommend specific treatments tailored to your unique skin profile.
 <br/><br/>
 Understanding your skin type is the foundation for a radiant and healthy complexion. With this ultimate guide, embark on a skincare journey that celebrates your skin's uniqueness, bringing out the best in its natural beauty. Remember, a well-informed approach to skincare is the secret to glowing confidence.</li>
                

@@ -116,7 +116,7 @@ const Shop = () => {
 
   return (
     <div className="container mx-auto md:p-8">
-      <h1 className="text-3xl md:text-6xl font-bold mb-15 text-center text-terra m-[20px]">
+      <h1 className="text-3xl md:text-6xl font-roboto-condensed font-bold mb-15 text-center text-terra m-[20px]">
         Face
       </h1>
       <div className="flex justify-center">
@@ -133,7 +133,7 @@ const Shop = () => {
         </section>
       </div>
 
-      <h1 className="text-3xl md:text-6xl font-bold mb-15 text-center text-terra m-[20px]">
+      <h1 className="text-3xl md:text-6xl font-roboto-condensed font-bold mb-15 text-center text-terra m-[20px]">
         Body
       </h1>
       <div className="flex justify-center">
@@ -150,7 +150,7 @@ const Shop = () => {
         </section>
       </div>
 
-      <h1 className="text-3xl md:text-6xl font-bold mb-15 text-center text-terra m-[20px]">
+      <h1 className="text-3xl md:text-6xl font-roboto-condensed font-bold mb-15 text-center text-terra m-[20px]">
         Hair
       </h1>
       <div className="flex justify-center">
