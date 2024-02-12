@@ -13,7 +13,7 @@ function Blog2Page()
                     <div className="inline-flex items-center mr-3 text-sm text-terra ">
                         <Image className="mr-4 w-16 h-16 rounded-full" src={infl} alt={"dr"}/>
                         <div>
-                            <a href="#" rel="author" className="text-xl font-bold text-terra ">Ella Harper</a>
+                            <a  className="text-xl font-bold text-terra ">Ella Harper</a>
                             <p className="text-base text-green1 ">Skincare Influencer</p>
                             <p className="text-base text-green1 ">Feb. 5, 2024</p>
                         </div>
@@ -32,8 +32,9 @@ function Blog2Page()
                 <figcaption className="text-center text-green1">Skincare</figcaption>
             </figure>
            
-            <ol className="text-terra text-center mt-6">
-                <li className="m-5 text-lg"><strong className="text-xl">Morning Skincare: Protect and Energize<br/></strong>. 
+            <div className="text-terra text-center mt-6">
+                <div>
+                <p className="m-5 text-lg"><strong className="text-xl">Morning Skincare: Protect and Energize.<br/></strong> </p>
                             <strong>1. Cleansing:</strong>
                             <p>Begin your morning routine with a gentle cleanser. This clears away overnight impurities,
                                  excess oils, and prepares your skin for the day ahead.</p>
@@ -50,8 +51,10 @@ function Blog2Page()
                              <strong>5. Sunscreen:</strong>
                             <p>The most critical step in the morning routine—apply a broad-spectrum SPF. Shielding your skin from UV
                                  rays is essential for preventing premature aging and maintaining overall skin health.</p>
-                </li>
-                <li className="m-5 text-lg"><strong className="text-xl">Nighttime Skincare: Repair and Rejuvenate<br/></strong>.
+                
+                </div>
+                <div>
+                <p className="m-5 text-lg"><strong className="text-xl">Nighttime Skincare: Repair and Rejuvenate.<br/></strong></p>
                 <strong>1. Makeup Removal and Cleansing:</strong>
                 <p>Start your evening routine by removing makeup and cleansing your skin thoroughly. This rids the skin of pollutants accumulated throughout the day.</p>
                 <strong>2. Exfoliation (2-3 Times a Week):</strong>
@@ -66,10 +69,11 @@ function Blog2Page()
                 <p>Choose a richer moisturizer for the night to deeply hydrate and replenish your skin as you sleep.</p>
                 <strong>7. Lip Care:</strong>
                 <p>Don't forget to apply a nourishing lip balm to keep your lips hydrated.</p>
-                </li>
-                <li className="m-5 text-lg"><strong className="text-xl">Crafting a Ritual of Self-Care<br/></strong>. Morning and nighttime skincare routines are not just about products; they are rituals of self-care. Each step is an investment in the health and vitality of your skin. By understanding the unique requirements of morning and nighttime skincare, you empower yourself to curate a routine that enhances your skin's natural beauty, day and night. So, embrace the ritual, cherish the process, and let your radiant skin be a reflection of your dedication to self-care.</li>
+                
+                </div>
+                <p className="m-5 text-lg"><strong className="text-xl">Crafting a Ritual of Self-Care<br/></strong>. Morning and nighttime skincare routines are not just about products; they are rituals of self-care. Each step is an investment in the health and vitality of your skin. By understanding the unique requirements of morning and nighttime skincare, you empower yourself to curate a routine that enhances your skin's natural beauty, day and night. So, embrace the ritual, cherish the process, and let your radiant skin be a reflection of your dedication to self-care.</p>
                
-            </ol>
+          </div>
             </article>
 
 </div>

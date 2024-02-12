@@ -13,7 +13,7 @@ function Blog4Page()
                     <div className="inline-flex items-center mr-3 text-sm text-terra ">
                         <Image className="mr-4 w-16 h-16 rounded-full" src={dr2} alt={"dr2"}/>
                         <div>
-                            <a href="#" rel="author" className="text-xl font-bold text-terra ">Dr. Hannah Barkley</a>
+                            <a  className="text-xl font-bold text-terra ">Dr. Hannah Barkley</a>
                             <p className="text-base text-green1 ">Doctor</p>
                             <p className="text-base text-green1 ">Feb. 1, 2024</p>
                         </div>
@@ -33,8 +33,9 @@ function Blog4Page()
                 <figcaption className="text-center text-green1">Mature Skin</figcaption>
             </figure>
            
-            <ol className="text-terra text-center mt-6">
-                <li className="m-5 text-lg"><strong className="text-xl">Teenage Radiance: Laying the Foundation<br/></strong>. 
+            <div className="text-terra text-center mt-6">
+                <div className="text-lg">
+                <p className="m-5 text-lg"><strong className="text-xl">Teenage Radiance: Laying the Foundation<br/></strong></p> 
                             
                             <p>The journey to ageless beauty often begins in our teenage years—a time of newfound independence and hormonal fluctuations.
                                  Addressing the unique concerns of teenage skin, from acne breakouts to establishing a basic skincare routine, lays the foundation 
@@ -45,8 +46,10 @@ function Blog4Page()
                                  a routine that not only addresses acne but also nurtures a positive relationship with their evolving selves.
                              </p>
                               
-                </li>
-                <li className="m-5 text-lg"><strong className="text-xl">Adulting Gracefully: A Holistic Approach to Skincare<br/></strong>.
+                
+                </div>
+                <div className="text-lg">
+                <p className="m-5 text-lg"><strong className="text-xl">Adulting Gracefully: A Holistic Approach to Skincare<br/></strong></p>
                 
                 <p>As we enter adulthood, the skincare landscape shifts. Stress, environmental factors,
                      and lifestyle choices play a significant role in skin health. Explore the importance of
@@ -56,9 +59,11 @@ function Blog4Page()
                 <p>Discuss the importance of customizing skincare routines based on individual needs. Whether combating fine lines, 
                     managing dryness, or addressing hyperpigmentation, understanding your skin's
                      unique requirements becomes paramount in the pursuit of ageless beauty.</p>
-                </li>
+                
+                </div>
 
-                <li className="m-5 text-lg"><strong className="text-xl">Golden Years: Embracing Mature Beauty<br/></strong>.
+                <div className="text-lg">
+                <p className="m-5 text-lg"><strong className="text-xl">Golden Years: Embracing Mature Beauty<br/></strong></p>
                 
                 <p>Mature skin exudes a unique beauty, and the key lies in embracing the aging process with grace. 
                     Explore the benefits of incorporating anti-aging ingredients like retinoids and peptides, along with the 
@@ -68,10 +73,11 @@ function Blog4Page()
                 <p>Encourage a positive perspective on mature skin, emphasizing the beauty that comes with experience.
                      Share skincare tips for maintaining elasticity,
                      preventing sun damage, and cultivating a skincare routine that honors the passage of time.</p>
-                </li>
-                <li className="m-5 text-lg"><strong className="text-xl">Skincare Through the Ages: A Lifelong Journey<br/></strong>In the symphony of ageless beauty, each stage plays a distinct note. From the vibrancy of youth to the grace of maturity, our skincare journey is a lifelong adventure. Embrace the changes, celebrate the milestones, and let your skincare routine be a testament to the beauty that accompanies you through the years—a testament to ageless beauty in every phase of life.</li>
+                
+                </div>
+                <p className="m-5 text-lg"><strong className="text-xl">Skincare Through the Ages: A Lifelong Journey<br/></strong>In the symphony of ageless beauty, each stage plays a distinct note. From the vibrancy of youth to the grace of maturity, our skincare journey is a lifelong adventure. Embrace the changes, celebrate the milestones, and let your skincare routine be a testament to the beauty that accompanies you through the years—a testament to ageless beauty in every phase of life.</p>
                
-            </ol>
+            </div>
             </article>
 
 </div>

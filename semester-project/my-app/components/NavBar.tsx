@@ -183,6 +183,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
               )}
             </li>
           ))}
+          
           {/* Search Bar */}
           <li className="ml-auto" style={{ marginTop: "-8px", marginLeft: "-3px" }}> {/* Aligns to the right */}
             <div className="relative">
@@ -198,6 +199,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
               </div>
               {/* ... */}
             </li>
+            
           
         </ul>
       </nav>
