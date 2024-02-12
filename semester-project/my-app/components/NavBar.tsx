@@ -6,6 +6,8 @@ import { usePathname } from "next/navigation";
 import Link from "next/link";
 import logo2 from "../public/hero/logo2.png";
 import { useRouter } from 'next/router';
+import SearchBar from "@/components/Search"
+
 
 interface NavbarProps {
   pages: Record<string, `/${string}`>;
@@ -15,36 +17,7 @@ const baseClass =
   "uppercase whitespace-nowrap font-roboto-condensed text-base px-5 py-1 lg:py-3 rounded-xl hover:bg-terra hover:text-green1";
 
 
-  const SearchBar: FC = () => {
-    const router = useRouter();
-    const [searchTerm, setSearchTerm] = useState('');
-  
-    const handleSearch = () => {
-      // You can customize this logic based on your requirements
-      // For now, let's just redirect to a search results page with the search term as a query parameter
-      router.push(`/search?query=${searchTerm}`);
-    };
-  
-    return (
-      <li className="ml-auto" style={{ marginTop: "-8px", marginLeft: "-3px" }}> {/* Aligns to the right */}
-        <div className="relative">
-          <input
-            type="text"
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            className="px-3 py-2 rounded-xl bg-beige text-terra border border-terra placeholder-terra"
-            placeholder="Search..."
-          />
-          <button
-            onClick={handleSearch}
-            className="absolute right-0 top-0 bottom-0 px-3 py-2 bg-terra text-green1 rounded-xl hover:text-terra hover:bg-peach"
-          >
-            GO
-          </button>
-        </div>
-      </li>
-    );
-  };
+ 
   
 
 
@@ -123,7 +96,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
         ))}
         {/* Search Bar */}
        {/* Aligns to the right */}
-            <div className="relative pb-2 pt-2">
+       <div className="relative pb-2 pt-2">
               <input
                 type="text"
                 className="px-3 py-2 rounded-xl bg-beige text-terra border border-terra placeholder-terra"
@@ -136,7 +109,6 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
               </div>
               {/* ... */}
          
-          
         {/* ... */}
       </nav>
     )}
@@ -183,24 +155,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
               )}
             </li>
           ))}
-          
-          {/* Search Bar */}
-          <li className="ml-auto" style={{ marginTop: "-8px", marginLeft: "-3px" }}> {/* Aligns to the right */}
-            <div className="relative">
-              <input
-                type="text"
-                className="px-3 py-2 rounded-xl bg-beige text-terra border border-terra placeholder-terra"
-                placeholder="Search..."
-              />
-              <Link legacyBehavior href="/notFound" className="flex">
-
-              <button className="absolute right-0 top-0 bottom-0 px-3 py-2 bg-terra text-green1 rounded-xl hover:text-terra hover:bg-peach">GO</button>
-              </Link>
-              </div>
-              {/* ... */}
-            </li>
-            
-          
+          <SearchBar/>
         </ul>
       </nav>
     </nav>

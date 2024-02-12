@@ -1,28 +1,28 @@
 "use client"
 import React, { useState, useEffect } from "react";
-import Card from "../shop-all/Card";
+import Card from "@/app/shop/shop-all/Card";
 import { fetchGraphQL } from "@/app/utils/contentfulFetch";
 
 const space_id = "oryvsd9mg11g";
 const access_token = "lfsKVzhuOdUcubBJ7kSWzOzihmY7G-Lgn6ofML8Q-_g";
 
 interface Shop {
- 
-  name: string;
-  price: string;
-  image: {
-    id: number;
-    title: string;
-    description: string;
-    contentType: string;
-    url: string;
-  };
-  category: string;
-}
+    name: string;
+    price: string;
+    image: {
+      id: string;
+      title: string;
+      description: string;
+      contentType: string;
+      url: string;
+    };
+    category: string;
+  }
 
 interface pageProps {
   params: {
     category: string;
+    product: string;
   };
 }
 
