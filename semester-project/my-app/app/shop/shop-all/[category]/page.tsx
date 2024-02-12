@@ -116,6 +116,7 @@ function ShopPage({ params }: pageProps) {
           {shops.map((shop, item) => (
             <Card
               imageUrl={shop.image.url}
+              category={shop.category}
               title={shop.name}
               price={shop.price}
               onAddToCart={handleAddToCart}
