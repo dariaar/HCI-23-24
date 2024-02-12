@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
 interface CardProps {
   imageUrl: string;
@@ -14,18 +15,20 @@ const Card: React.FC<CardProps> = ({ imageUrl, title, price, onAddToCart }) => {
       <div className="m-[20px]">
         <Image className="rounded-2xl" src={imageUrl} alt={title} width={300} height={300} />
       </div>
-      <p className=" text-xl  whitespace-break-spaces text-terra">
+      <p className="text-xl whitespace-break-spaces text-terra">
         {title}
       </p>
-      <p className=" text-xl font-bold whitespace-break-spaces text-terra">
+      <p className="text-xl font-bold whitespace-break-spaces text-terra">
         {price}
       </p>
-      <button
-        className=" text-green2 bg-terra hover:bg-peach hover:text-terra rounded-xl p-[7px] m-[10px] "
-        onClick={onAddToCart}
-      >
-        Add to cart
-      </button>
+      <Link legacyBehavior href={`/shop-all/${encodeURIComponent(title.trim().replaceAll(" ", "-"))}`}>
+        <a
+          className="font-roboto-condensed rounded-xl text-green1 bg-terra hover:text-terra hover:bg-peach p-[7px] m-[10px] "
+          onClick={onAddToCart}
+        >
+          Add to cart
+        </a>
+      </Link>
     </div>
   );
 };

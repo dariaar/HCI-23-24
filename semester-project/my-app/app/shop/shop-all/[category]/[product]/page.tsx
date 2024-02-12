@@ -87,6 +87,7 @@ function Page({ params }: pageProps) {
         <section>
             {shop.image && shop.image.url && <Product
                       imageUrl={shop.image.url}
+                      category={shop.category}
                       title={shop.name}
                       price={shop.price}
                       onAddToCart={handleAddToCart}

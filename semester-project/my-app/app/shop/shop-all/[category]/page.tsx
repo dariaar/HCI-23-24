@@ -1,4 +1,5 @@
 "use client"
+// Shop Page component
 import React, { useState, useEffect } from "react";
 import Card from "@/app/shop/shop-all/Card";
 import { fetchGraphQL } from "@/app/utils/contentfulFetch";
@@ -7,26 +8,25 @@ const space_id = "oryvsd9mg11g";
 const access_token = "lfsKVzhuOdUcubBJ7kSWzOzihmY7G-Lgn6ofML8Q-_g";
 
 interface Shop {
-    name: string;
-    price: string;
-    image: {
-      id: string;
-      title: string;
-      description: string;
-      contentType: string;
-      url: string;
-    };
-    category: string;
-  }
+  name: string;
+  price: string;
+  image: {
+    id: string;
+    title: string;
+    description: string;
+    contentType: string;
+    url: string;
+  };
+  category: string;
+}
 
 interface pageProps {
   params: {
     category: string;
-    product: string;
   };
 }
 
-function Page({ params }: pageProps) {
+function ShopPage({ params }: pageProps) {
   const [redirectToNotFound, setRedirectToNotFound] = useState<boolean>(false);
   const [shops, setProducts] = useState<Shop[]>([]);
 
@@ -69,8 +69,7 @@ function Page({ params }: pageProps) {
           }
         }
       `;
-    } 
-    else {
+    } else {
       // Redirect to not-found page
       setRedirectToNotFound(true);
       return;
@@ -129,4 +128,4 @@ function Page({ params }: pageProps) {
   );
 }
 
-export default Page;
+export default ShopPage;

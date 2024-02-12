@@ -1,7 +1,7 @@
 "use client"
 import React, { useState, useEffect } from 'react';
 import { fetchGraphQL } from '@/app/utils/contentfulFetch';
-import Card from './Card';
+import Card from "@/app/shop/shop-all/Card";
 
 const space_id = 'oryvsd9mg11g';
 const access_token = 'lfsKVzhuOdUcubBJ7kSWzOzihmY7G-Lgn6ofML8Q-_g';
