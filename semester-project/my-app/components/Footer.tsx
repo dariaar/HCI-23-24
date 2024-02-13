@@ -30,7 +30,6 @@ const FooterList = ({ title, items }: ListProps) => {
       <ul className="font-roboto text-peach">
         {items.map((item, index) => (
           <li key={index}>
-            {/* Use Next.js Link component to create links */}
             <Link legacyBehavior href={item.url}>
               <a>{item.label}</a>
             </Link>
