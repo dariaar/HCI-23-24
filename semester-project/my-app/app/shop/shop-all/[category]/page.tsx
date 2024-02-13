@@ -33,7 +33,7 @@ function ShopPage({ params }: pageProps) {
   useEffect(() => {
     let query = "";
 
-    if (params.category === 'all') {
+    if (params.category === 'shop-all') {
       query = `
         query {
           shopCollection {
@@ -103,7 +103,7 @@ function ShopPage({ params }: pageProps) {
   return (
     <div className="container mx-auto md:p-8">
       <h1 className="text-4xl md:text-6xl font-bold mb-15 text-center text-dark_blue font-serif m-[20px] mt-[30px]">
-        {params.category === "all" ? (
+        {params.category === "shop-all" ? (
           // Render if params.category is "all"
           params.category[0].toUpperCase() + params.category.slice(1) + " products"
         ) : (

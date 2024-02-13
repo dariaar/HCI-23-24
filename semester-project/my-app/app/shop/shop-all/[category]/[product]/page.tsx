@@ -10,7 +10,7 @@ interface Shop {
     name: string;
     price: string;
     image: {
-      id: number;
+      id: string;
       title: string;
       description: string;
       contentType: string;
