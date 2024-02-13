@@ -140,8 +140,9 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
               )}
             </li>
           ))}
-          <SearchBar/>
+         
         </ul>
+        <SearchBar/>
       </nav>
     </nav>
   );
