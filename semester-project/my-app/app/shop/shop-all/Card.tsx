@@ -13,7 +13,7 @@ interface CardProps {
 const Card: React.FC<CardProps> = ({ imageUrl, category, title, price, onAddToCart }) => {
   const urlNew = title.trim().replaceAll(" ", "-");
   return (
-    <Link href={"/shop/" + category + "/" + urlNew} className="font-roboto-condensed flex flex-col items-center rounded-xl bg-green2 w-fit h-fit m-[10px] hover:bg-beige_text hover:cursor-pointer">
+    <Link href={"/shop/shop-all/" + category + "/" + urlNew} className="font-roboto-condensed flex flex-col items-center rounded-xl bg-green2 w-fit h-fit m-[10px] hover:bg-beige_text hover:cursor-pointer">
       <div className="m-[20px]">
         <Image className="rounded-2xl" src={imageUrl} alt={title} width={300} height={300} />
       </div>

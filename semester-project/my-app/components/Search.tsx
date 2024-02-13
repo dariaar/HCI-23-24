@@ -80,7 +80,7 @@ function SearchBar() {
                 }
                 setSearchResults([]);
               }}
-              href={`/shop/${product.category}/${product.name.trim().replaceAll(" ", "-")}`}
+              href={`/shop/shop-all/${product.category}/${product.name.trim().replaceAll(" ", "-")}`}
               key={index}
             >
               <div className="font-roboto-condensed text-sm my-1" key={index}>

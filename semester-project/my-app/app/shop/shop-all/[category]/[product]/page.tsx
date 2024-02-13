@@ -80,7 +80,7 @@ function Page({ params }: pageProps) {
 
   return (
     <div className="container mx-auto md:p-8">
-      <h1 className="text-2xl md:text-4xl font-bold mb-15 text-center text-dark_blue font-serif m-[20px] mt-[30px]">
+      <h1 className="text-2xl md:text-4xl font-bold mb-15 text-center text-terra font-roboto-condensed m-[20px] mt-[30px]">
           {shop.name}
       </h1>
       <div className="flex justify-center">

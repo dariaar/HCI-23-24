@@ -24,15 +24,13 @@ const Product: React.FC<ProductProps> = ({ imageUrl, category, title, price, onA
                 width={400} 
                 height={400} 
                 />
-                <div className="absolute w-full h-full -top-[30px] left-[30px] -z-10 bg-peach1"></div>
+                <div className=" text-terra absolute w-full h-full -top-[30px] left-[30px] -z-10 bg-peach1"></div>
             </div>
             </div>
     
           <div className="flex flex-col">
-                <p className="font-serif text-xl font-bold whitespace-break-spaces text-blue1">
-                    {title}
-                </p>
-                <p className="font-serif text-xl font-bold whitespace-break-spaces text-brown1">
+               
+                <p className="font-serif text-xl font-bold whitespace-break-spaces text-terra">
                     {price}
                 </p>
                 <Link href={"/shop/" + category + "/" + urlNew}>
