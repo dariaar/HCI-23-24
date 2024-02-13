@@ -10,7 +10,7 @@ interface Shop {
     name: string;
     price: string;
     image: {
-      id: string;
+      id: number;
       title: string;
       description: string;
       contentType: string;
@@ -64,7 +64,7 @@ function Page({ params }: pageProps) {
     };
 
     fetchData();
-  }, [params.product]);
+  }, [params.category]);
 
   const handleAddToCart = () => {
     // Handle adding to cart logic

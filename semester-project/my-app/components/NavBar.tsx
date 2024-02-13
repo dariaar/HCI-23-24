@@ -94,22 +94,7 @@ const Navbar: FC<NavbarProps> = ({ pages }) => {
             )}
           </div>
         ))}
-        {/* Search Bar */}
-       {/* Aligns to the right */}
-       <div className="relative pb-2 pt-2">
-              <input
-                type="text"
-                className="px-3 py-2 rounded-xl bg-beige text-terra border border-terra placeholder-terra"
-                placeholder="Search..."
-              />
-              <Link legacyBehavior href="/404" className="flex">
-
-              <button className="absolute right-0 top-0 bottom-0.3 px-3 py-2 mt-2 bg-terra text-green1 rounded-xl hover:text-terra hover:bg-peach">GO</button>
-              </Link>
-              </div>
-              {/* ... */}
-         
-        {/* ... */}
+        <SearchBar/>
       </nav>
     )}
       {/* Desktop Navigation */}
