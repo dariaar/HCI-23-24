@@ -78,6 +78,7 @@ const Shop = () => {
           {hairShops.map((shop, index) => (
             <Card
               imageUrl={shop.image.url}
+              category={shop.category}
               title={shop.name}
               price={shop.price}
               onAddToCart={() => handleAddToCart(shop.name)}
