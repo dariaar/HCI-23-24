@@ -28,7 +28,7 @@ const Card: React.FC<CardProps> = ({ imageUrl, category, title, price, onAddToCa
           className="font-roboto-condensed rounded-xl text-green1 bg-terra hover:text-terra hover:bg-peach p-[7px] m-[10px] "
           onClick={onAddToCart}
         >
-          Add to cart
+          View product
         </button>
       </Link>
     
