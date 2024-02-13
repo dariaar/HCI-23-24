@@ -1,6 +1,7 @@
 ﻿# Semester Project - AZALA <!-- omit in toc -->
  
  - latest deployment: [https://azalav6.vercel.app/](https://azalav6.vercel.app/)
+ - Notion report: [https://www.notion.so/AZALA-51c323cd33f54ab58d96a4cb10fbfe35#849863ff1eb04203b4523d2762af1895](https://www.notion.so/AZALA-51c323cd33f54ab58d96a4cb10fbfe35#849863ff1eb04203b4523d2762af1895)
 
 ### Weekly progress, status and problems (4/4)
 - implementacija Contentful-a
