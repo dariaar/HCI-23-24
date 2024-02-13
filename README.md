@@ -1,6 +1,6 @@
 ﻿# Semester Project - AZALA <!-- omit in toc -->
  
- - latest deployment: https://azala-v5.vercel.app/
+ - latest deployment: [https://azalav6.vercel.app/](https://azalav6.vercel.app/)
 
 ### Weekly progress, status and problems (4/4)
 - implementacija Contentful-a
